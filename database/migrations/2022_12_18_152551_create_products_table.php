@@ -25,7 +25,7 @@ class CreateProductsTable extends Migration
             $table->string('price');
             $table->string('gender');
             $table->string('color');
-            $table->string('size');
+            $table->json('size');
         });
     }
 
